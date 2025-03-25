@@ -6953,9 +6953,11 @@ p {
 .font-lato {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
+  
 .font-roboto {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* TBR font-family */
+  font-family: "Roboto", "Noto Sans", sans-serif;
+  /* font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif; */
 }
 
 .font-base {
@@ -7392,8 +7394,6 @@ form .star-rating .customFormReset:checked + label {
  ---------------------------------------------------------*/
 #nav {
   background-color: transparent;
-  /* TBR font-family */
-  font-family: "Roboto", "Noto Sans", sans-serif;
   border: 0;
   display: -webkit-box;
   display: -ms-flexbox;
