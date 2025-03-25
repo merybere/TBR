@@ -7392,6 +7392,8 @@ form .star-rating .customFormReset:checked + label {
  ---------------------------------------------------------*/
 #nav {
   background-color: transparent;
+  /* TBR font-family */
+  font-family: "Roboto", "Noto Sans", sans-serif;
   border: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7504,6 +7506,8 @@ form .star-rating .customFormReset:checked + label {
 .intro-block-slide {
   min-height: 100vh;
   color: #fff;
+  /* TBR font-family */
+  font-family: "Roboto", "Noto Sans", sans-serif;
   font-size: 18px;
   line-height: 1.44444;
   text-align: center;
@@ -7553,7 +7557,6 @@ form .star-rating .customFormReset:checked + label {
 
 .intro-block-slide .intro-block-heading {
   color: inherit;
-  font-family: "Roboto", "Noto Sans", sans-serif;
   font-weight: 700;
   margin: 0 0 13px;
 }
