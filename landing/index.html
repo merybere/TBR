@@ -71,10 +71,32 @@
 						<div class="col-xs-6 col-sm-3">
 							<!-- logo -->
 							<div class="logo">
-								<a href=".html">
+								<!-- <a href=".html">
 									<img class="hidden-xs" src="images/logo.png" alt="studylms">
 									<img class="hidden-sm hidden-md hidden-lg" src="images/logo-dark.png" alt="studylms">
-								</a>
+								</a> -->
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 330" class="tbr-phrase">
+									<defs>
+										<radialGradient id="gradient-background" cx="0%" cy="100%" r="100%" fx="0%" fy="100%">
+											<stop offset="50%" style="stop-color: var(--color-background-2); stop-opacity:1"></stop>
+											<stop offset="100%" style="stop-color: var(--color-background-1); stop-opacity:1"></stop>
+										</radialGradient>
+										<filter id="drop-shadow" x="-50%" y="-50%" width="200%" height="200%">
+											<feGaussianBlur in="SourceAlpha" stdDeviation="3"></feGaussianBlur>
+											<feOffset dx="4" dy="4" result="offsetblur"></feOffset>
+											<feFlood flood-color="rgba(0,0,0,0.35)"></feFlood>
+											<feComposite in2="offsetblur" operator="in"></feComposite>
+											<feMerge>
+												<feMergeNode></feMergeNode>
+												<feMergeNode in="SourceGraphic"></feMergeNode>
+											</feMerge>
+										</filter>
+									</defs>
+									<text x="10" y="70">Training</text>
+									<text x="10" y="150">from the</text>
+									<text x="10" y="230" class="highlighted">BACK</text>
+									<text x="210" y="230">of</text><text x="10" y="310">the Room!</text>
+								</svg>
 							</div>
 						</div>
 						<div class="col-xs-6 col-sm-9 static-block">
