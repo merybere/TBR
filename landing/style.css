@@ -200,7 +200,7 @@ button, .form-control, .features-aside .view-more, .features-aside .icn-wrap, .n
   vertical-align: middle;
   text-align: left;
   font-size: 14px;
-  font-family: "Roboto", "Noto Sans", sans-serif; /* "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -7553,6 +7553,7 @@ form .star-rating .customFormReset:checked + label {
 
 .intro-block-slide .intro-block-heading {
   color: inherit;
+  font-family: "Roboto", "Noto Sans", sans-serif;
   font-weight: 700;
   margin: 0 0 13px;
 }
